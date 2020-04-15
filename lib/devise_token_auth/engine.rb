@@ -42,7 +42,8 @@ module DeviseTokenAuth
                                                 'client': 'client',
                                                 'expiry': 'expiry',
                                                 'uid': 'uid',
-                                                'token-type': 'token-type' }
+                                                'token-type': 'token-type',
+                                                'provider': 'provider' }
   self.bypass_sign_in                       = true
 
   def self.setup(&block)
